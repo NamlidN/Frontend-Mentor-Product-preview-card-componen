@@ -1,0 +1,108 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: help;
+}
+
+@font-face {
+    font-family: mos;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: fr;
+    src: url("../fonts/Fraunces_9pt-Bold.ttf");
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.text {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 1rem 1rem 0;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.dec {
+    font-family: mos;
+    font-size: 9pt;
+    color: hsl(228, 12%, 48%);
+}
+
+.perfume {
+    letter-spacing: 0.3em;
+    color: hsl(228, 12%, 48%);
+    font-family: mos;
+    font-size: 8pt;
+}
+
+img {
+    Background-repeat: no repeat;
+    background-position: center;
+    Background-size: cover;
+    width: 15rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.haupt {
+    display: flex;
+    margin: 30vh 60vh;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-family: fr;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.preis {
+    color: hsl(158, 36%, 37%);
+    font-family: fr;
+    font-size: 22pt;
+    margin: 1rem 0.5rem 1rem 0;
+}
+
+.altpreis {
+    font-family: mos;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 9pt;
+    vertical-align: .4rem;
+    margin-left: .5rem;
+}
+
+.q {
+    display: inline-block;
+}
+
+.knopf {
+    font-family: mos;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    text-align: center;
+    border-radius: .5rem;
+    padding: .8rem;
+}
+
+.knopf::before {
+    content: url("../img/icon-cart.svg");
+}
+
+.knopf:hover {
+    background-color: hsl(158, 37%, 25%);
+    box-shadow: inset rgb(0, 0, 0) .2rem .2rem .2em;
+    cursor: grab;
+}
